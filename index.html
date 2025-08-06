@@ -16,18 +16,18 @@
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
-<body class="poppins-regular">
+<body class="poppins-regular sm:m-[0px] m-[30px]">
 
     <!-- header section  -->
     <header class="max-w-[1140px] m-auto">
 
         <!-- navbar section  -->
-        <nav class="navbar flex justify-around items-center my-[50px]">
+        <nav class="navbar flex sm:flex-row flex-col justify-around items-center my-[50px] sm:gap[0px] gap[30px]">
             <div class="logo">
             <img src="./images/logo.png" class="" alt="">
             <h3 class="nav-title font-extrabold text-4xl text-[#414040]">Justice</h3>
             </div>
-            <ul class="grid grid-cols-5 gap-30px text-[#707070]">
+            <ul class="grid sm:grid-cols-5 grid-cols-1 gap-30px text-[#707070]">
                 <li><a href="">Home</a></li>
                 <li><a href="">Services <i class="fa-solid fa-angle-right"></i></a></li>
                 <li><a href="">Cases <i class="fa-solid fa-angle-right"></i></a></li>
@@ -40,13 +40,13 @@
         <!-- banner section  -->
          <section class="banner  bg-[url(./images/banner.png)]  bg-center bg-no-repeat text-center rounded-[18px]">
 
-            <div class="banner-content px-[240px]  py-[105px]">
+            <div class="banner-content sm:px-[240px] px-[10px] smm  py-[105px]">
 
-            <h2 class="banner-title text-[#FFFFFF] font-extrabold text-[4.5rem] eb-garamond-normal">We Provide Effective Legal Solutions</h2>
+            <h2 class="banner-title text-[#FFFFFF] font-extrabold sm:text-[4.5rem] text-[3rem] eb-garamond-normal">We Provide Effective Legal Solutions</h2>
             <p class="banner-description text-[#E7E7E7]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
-            <div class=" mt-[32px] flex gap-[24px]">
-            <input type="text" name="" id="" placeholder="Search your services " class="rounded-[8px] bg-[#FFFFFF] text-[#A0A0A0] border-none py-[20px] pl-[20px] pr-[310px]">
+            <div class=" mt-[32px] flex sm:flex-row flex-col gap-[24px]">
+            <input type="text" name="" id="" placeholder="Search your services " class="rounded-[8px] bg-[#FFFFFF] text-[#A0A0A0] border-none py-[20px] pl-[20px] sm:pr-[310px] pr-[100px]">
 
             <button class="banner-btn bg-[#B68C5A] text-[#FFFFFF] text-lg font-semibold rounded-lg px-[40px] py-[18px] ">Search</button>
             </div>
@@ -63,7 +63,7 @@
                 <h3 class="practice-title eb-garamond-normal font-extrabold text-[2.5rem] text-[#414040] mb-[24px]">The Legal Practice Area</h3>
                 <p class="practice-description text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
-            <div class="practice-card-container grid grid-cols-3 text-center mt-[65px]">
+            <div class="practice-card-container grid sm:grid-cols-3 grid-cols-1 text-center mt-[65px]">
                 <div class="practice-card p-[70px] border-b border-r border-[#E7E7E7] ">
                     <img src="./images/business.png" alt="" class="m-auto mb-[32px]">
                     <h3 class="practice-card-title eb-garamond-normal font-extrabold text-[2rem] text-[#414040]">Business Law</h3>
@@ -106,10 +106,10 @@
          <!-- client section  -->
           <section class="client mb-[120px]">
             <div class="client-content text-center max-w-[800px] m-auto mb-[64px]">
-                <h3 class="client-content-title  eb-garamond-normal font-extrabold text-[2.5rem] text-[#414040] mb-[24px]">Frequently Asked Any Questions</h3>
+                <h3 class="client-content-title  eb-garamond-normal font-extrabold text-[2.5rem] text-[#414040] mb-[24px]">What Our Client Say</h3>
                 <p class="client-content-description text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
-            <div class="client-bg-content bg-[url(./images/banner.png)] py-[96px] px-[135px] bg-center bg-no-repeat rounded-[8px] text-center">
+            <div class="client-bg-content bg-[url(./images/banner.png)] py-[96px] sm:px-[135px] px-[35px] bg-center  bg-no-repeat rounded-[8px] text-center">
                 <img src="./images/profile.png" alt="" class="m-auto w-[10%] mb-[10px]">
                 <h3 class="client-name text-[#FFFFFF] eb-garamond-normal font-extrabold text-[1.5rem]">Awlad Hossain</h3>
                 <p class="client-profession text-[#FFFFFF]">UIX Designer</p>
@@ -123,7 +123,7 @@
                 <h3 class="Questions-title eb-garamond-normal font-extrabold text-[2.5rem] text-[#414040] mb-[24px]">Frequently Asked Any Questions</h3>
                 <p class="Questions-description text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
-            <div class="Questions-card-container flex gap-[30px]">
+            <div class="Questions-card-container flex sm:flex-row flex-col-reverse gap-[30px]">
                 <div class="Questions-cards grid gap-[30px]">
                     <div class="Questions-card bg-[#F3F3F3] p-[35px] rounded-[8px]">
                         <div class="flex justify-between items-center ">
@@ -157,8 +157,8 @@
                 <p class="contact-content-description text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                 </div>
 
-                <div class="flex gap-[30px]">
-                <div class="contact-card-container grid grid-cols-2 bg-[#F3F3F3] text-center">
+                <div class="flex sm:flex-row flex-col gap-[30px]">
+                <div class="contact-card-container grid sm:grid-cols-2 grid-cols-1 bg-[#F3F3F3] text-center">
                     <div class="contact-card p-[60px] border-r border-b border-[#CFCFCF]">
                         <img src="./images/location.png" alt="" class="m-auto">
                         <h4 class="contact-card-title eb-garamond-normal font-extrabold text-[1.5rem] text-[#414040] my-[16px]">Address</h4>
@@ -177,7 +177,7 @@
                         <p class="contact-card-description text-[#707070]">info@gmail.com <br>
                              info@gmail.com</p>
                     </div>
-                    <div class="contact-card p-[65px]">
+                    <div class="contact-card p-[65px] sm:border-0 border-t border-[#CFCFCF]">
                         <img src="./images/time.png" alt="" class="m-auto">
                         <h4 class="contact-card-title eb-garamond-normal font-extrabold text-[1.5rem] text-[#414040] my-[16px]">Working Hours</h4>
                         <p class="contact-card-description text-[#707070]">Mon-Fri: 9AM to 5PM  <br>
@@ -188,17 +188,17 @@
                 <form action="">
 
                     <label for="text"></label>
-                    <input type="text" name="" id="" placeholder="Your Name" class="text-[#707070] block bg-[#F3F3F3] rounded-[8px] py-[23px] pl-[23px] pr-[300px] mb-[30px]">
+                    <input type="text" name="" id="" placeholder="Your Name" class="text-[#707070] block bg-[#F3F3F3] rounded-[8px] py-[23px] pl-[23px] sm:pr-[300px] pr-[140px] mb-[30px]">
 
                     <label for="email"></label>
-                    <input type="email" name="" id="" placeholder="Your Email" class="text-[#707070] block bg-[#F3F3F3] rounded-[8px] py-[23px] pl-[23px] pr-[300px] mb-[30px]">
+                    <input type="email" name="" id="" placeholder="Your Email" class="text-[#707070] block bg-[#F3F3F3] rounded-[8px] py-[23px] pl-[23px] sm:pr-[300px] pr-[140px] mb-[30px]">
 
                     <label for="text"></label>
-                    <input type="text" name="" id="" placeholder="Subject" class="text-[#707070] block  bg-[#F3F3F3] rounded-[8px] py-[23px] pl-[23px] pr-[300px] mb-[30px]">
+                    <input type="text" name="" id="" placeholder="Subject" class="text-[#707070] block  bg-[#F3F3F3] rounded-[8px] py-[23px] pl-[23px] sm:pr-[300px] pr-[140px] mb-[30px]">
 
-                    <textarea name="" id="" cols="30" rows="5" class="text-[#707070] bg-[#F3F3F3] rounded-[8px] py-[23px] pl-[23px] pr-[230px] mb-[30px]">Your Message</textarea>
+                    <textarea name="" id="" cols="30" rows="5" class="text-[#707070] bg-[#F3F3F3] rounded-[8px] py-[23px] pl-[23px] sm:pr-[230px] pr-[110px] mb-[30px]">Your Message</textarea>
 
-                    <button class="banner-btn bg-[#B68C5A] text-[#FFFFFF] text-lg font-semibold rounded-lg px-[195px] py-[21px] block">Send Message</button>
+                    <button class="banner-btn bg-[#B68C5A] text-[#FFFFFF] text-lg font-semibold rounded-lg sm:px-[195px] px-[118px] py-[21px] block">Send Message</button>
                 </form>
                 </div>
             </section>
@@ -207,7 +207,7 @@
     <!-- footer section  -->
     <footer class="bg-[#111111] text-[#CFCFCF]">
 
-        <div class="footer-container grid grid-cols-4 py-[120px] px-[195px] gap-[81px]">
+        <div class="footer-container grid sm:grid-cols-4 grid-cols-1 py-[120px] sm:px-[195px] px-[50px] gap-[81px]">
 
         <div class="footer-content">
             <img src="./images/logo2.png" alt="">
@@ -237,7 +237,7 @@
             <h3 class="footer-subscribe-title eb-garamond-normal font-extrabold text-[1.5rem] text-[#FFFFFF] my-[20px]">Subscribe</h3>
             <p class="footer-subscribe-description mb-[24px]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
 
-            <div class=" flex">
+            <div class=" flex sm:flex-row flex-col sm:gap-[0px] gap-[30px]">
             <input type="email" name="" id="" placeholder="Email Address" class="bg-[#FFFFFF] py-[23px] pl-[30px] pr-[50px] rounded-l-[8px] text-[#A0A0A0]">
             <button class="text-[#FFFFFF] rounded-r-[8px] bg-[#B68C5A] p-[20px]"><i class="fa-solid fa-paper-plane"></i></button>
             </div>
